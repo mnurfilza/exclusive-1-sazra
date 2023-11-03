@@ -63,34 +63,20 @@ body{
     color: rgba(0, 14, 20, 1);
 }
 #cover{
-    background-image: url('/assets/img/gio-bg.webp');
-    height: 100vh;
-    width: 100vw;
-    /* filter: brightness(0.7); */
-    /* background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)),  url('/assets/img/gio-bg.webp'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    /* object-fit: scale-down; */    
-}
-
-#title{
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(0.5px);
-}
-
-#title.p{
-    z-index: 1;
-}
-#hero{
-    background-image: url('/assets/img/gio-bg.webp');
+    background-image: url('/assets/img/bg-cover-dekstop.webp');
     height: 100vh;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(0.5px);
+}
+#hero{
+    background-image: url('/assets/img/bg-hero.webp');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .hero-wrapper{
     padding-bottom: 40px;
@@ -218,7 +204,7 @@ body{
         padding: 0 10px;
     }
     #cover{
-        background-image: url('/assets/img/gio-bg.webp');
+        background-image: url('/assets/img/bg-cover-mobile.webp');
         height: 100vh;
         width: 100vw;
         background-size: cover;
